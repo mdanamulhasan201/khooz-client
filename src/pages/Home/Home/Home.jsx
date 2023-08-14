@@ -1,3 +1,4 @@
+import Carousel from '../Swiper/Carousel';
 import Banner from '../banner/banner';
 
 
@@ -6,6 +7,7 @@ const Home = () => {
         <div>
             
             <Banner></Banner>
+           <Carousel></Carousel>
         </div>
     );
 };
