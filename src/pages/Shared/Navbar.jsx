@@ -17,17 +17,17 @@ const Navbar = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
               </svg>
             </label>
-            <ul tabIndex={0} className="dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+            <ul tabIndex={0} className="dropdown-content mt-3 z-[1]  p-2 shadow bg-base-100 rounded-box w-52">
               <li><NavLink to='/' exact activeClassName="active-link">Home</NavLink></li>
               <li><NavLink to='/about' activeClassName="active-link">All Provider</NavLink></li>
               <li><NavLink to='/contact' activeClassName="active-link">Products</NavLink></li>
               <li><NavLink to='/contact' activeClassName="active-link">Contact</NavLink></li>
             </ul>
           </div>
-          <Link className=" normal-case text-xl">Khooz</Link>
+          <Link className=" font-bold text-2xl ">Khooz</Link>
         </div>
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal px-1">
+          <ul className="menu text-lg font-semibold menu-horizontal px-1">
             <li><NavLink to='/' exact activeClassName="active-link">Home</NavLink></li>
             <li><NavLink to='/about' activeClassName="active-link">All Provider</NavLink></li>
             <li><NavLink to='/contact' activeClassName="active-link">Products</NavLink></li>
