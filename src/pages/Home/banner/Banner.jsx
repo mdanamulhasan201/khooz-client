@@ -4,11 +4,12 @@ import './banner.css'
 const Banner = () => {
     const images = [
         'https://renovation.thememove.com/wp-content/uploads/2021/02/n_hreno_congnhan.png',
-        'https://aonetheme.com/latest-service-finder/wp-content/uploads/2020/05/plumber-2.png', 'https://i.ibb.co/XfnDNmJ/painting-paint-rollers-house-painter-and-decorator-photography-portrait-of-a-young-man-png-favpng-yy.png'
+        'https://aonetheme.com/latest-service-finder/wp-content/uploads/2020/05/plumber-2.png', 'https://i.ibb.co/XfnDNmJ/painting-paint-rollers-house-painter-and-decorator-photography-portrait-of-a-young-man-png-favpng-yy.png', 'https://i.ibb.co/jLpPXSr/png-transparent-television-led-backlit-lcd-smart-tv-tv-repair-television-electronics-service-removeb.png'
     ];
 
     const textContent = [
         "Hire Experts & Get Your Job Done!",
+        "Find Reliable Professionals for Your Projects!",
         "Find Reliable Professionals for Your Projects!",
         "Find Reliable Professionals for Your Projects!"
     ];
