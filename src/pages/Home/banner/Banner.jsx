@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import './banner.css'
 
+
 const Banner = () => {
     const images = [
         'https://renovation.thememove.com/wp-content/uploads/2021/02/n_hreno_congnhan.png',
@@ -32,7 +33,7 @@ const Banner = () => {
     };
 
     return (
-       <div className='relative bg-[#F8F5FF]' style={backgroundImage} >
+        <div className='relative bg-[#F8F5FF]' style={backgroundImage} >
             <svg
                 className="absolute left-0 bottom-0"
                 xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +66,10 @@ const Banner = () => {
                         excepturi exercitationem quasi. In deleniti eaque aut repudiandae et
                         a id nisi.
                     </p>
+
+                  
                 </div>
+
             </div>
         </div>
     );
