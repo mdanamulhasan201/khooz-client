@@ -1,10 +1,23 @@
-import React from 'react';
+
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
+
 
 const Cart = () => {
+    const navigate = useNavigate()
     const cart_products = [1, 2]
     const outOfStockProducts = [1, 2]
+
+    const redirect = () => {
+        navigate('/shipping', {
+            state: {
+                products: [],
+                price: 500,
+                delivery_cost: 120,
+                items: 4
+            }
+        })
+    }
     return (
         <div className='py-20'>
             <div className='container mx-auto'>
@@ -136,7 +149,7 @@ const Cart = () => {
                                                     <span className='text-lg font-semibold'>380 Tk</span>
                                                 </div>
                                                 <div>
-                                                    <button className='px-5 py-[6px] w-full rounded-sm hover:shadow-blue-400/20 hover:shadow-lg bg-blue-500 text-white uppercase'>Process to Checkout 4</button>
+                                                    <button onClick={redirect} className='px-5 py-[6px] w-full rounded-sm hover:shadow-blue-400/20 hover:shadow-lg bg-blue-500 text-white uppercase'>Process to Checkout 4</button>
                                                 </div>
                                             </div>
                                         }

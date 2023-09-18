@@ -8,7 +8,7 @@ const AllProducts = () => {
 
     const categorys = [
         'Freeze Parts',
-        'Tv',
+        'Tv Parts',
         'Monitor Parts',
         'AC Parts',
         'CCTV Parts',
